@@ -1,0 +1,54 @@
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+ProxyControllerTest: test_should_get_output
+-------------------------------------------
+Started GET "/proxy/output" for 127.0.0.1 at 2017-12-14 00:36:03 +0300
+Processing by ProxyController#output as HTML
+Completed 500 Internal Server Error in 2243ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+ProxyControllerTest: test_should_get_input
+------------------------------------------
+Started GET "/proxy/input" for 127.0.0.1 at 2017-12-14 00:36:06 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (68.1ms)
+Completed 200 OK in 256ms (Views: 178.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+ProxyControllerTest: test_should_get_output
+-------------------------------------------
+Started GET "/proxy/output" for 127.0.0.1 at 2017-12-14 00:37:18 +0300
+Processing by ProxyController#output as HTML
+Completed 500 Internal Server Error in 2020ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+ProxyControllerTest: test_should_get_input
+------------------------------------------
+Started GET "/proxy/input" for 127.0.0.1 at 2017-12-14 00:37:20 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 72ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+ProxyControllerTest: test_should_get_output
+-------------------------------------------
+Started GET "/proxy/output" for 127.0.0.1 at 2017-12-14 00:43:50 +0300
+Processing by ProxyController#output as HTML
+Completed 200 OK in 1967ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+ProxyControllerTest: test_should_get_input
+------------------------------------------
+Started GET "/proxy/input" for 127.0.0.1 at 2017-12-14 00:43:52 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 72ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m

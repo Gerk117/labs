@@ -1,0 +1,9 @@
+<%= form_tag('/main/view', :method => 'get') do %>
+    <%= label_tag((:'Input:')) %>
+    <%= text_field_tag(:n) %> <br/>
+    <p><%= submit_tag((:'Result'))%></p>
+<% end %>
+<%= form_tag('/main/results', :method => 'get') do %>
+    <%= submit_tag((:'Output xml '))%>
+<% end %>
+

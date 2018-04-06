@@ -1,0 +1,779 @@
+Started GET "/proxy/input" for 127.0.0.1 at 2017-12-11 22:40:15 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (86.3ms)
+Completed 500 Internal Server Error in 5341ms
+
+
+  
+ActionView::Template::Error (Current ExecJS runtime does't support ES5. Please install node.js.):
+    4:     <title>XsltProxy</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___786429590_54341080'
+Started GET "/proxy/input" for 127.0.0.1 at 2017-12-11 22:40:42 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 106ms (Views: 79.9ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=server&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 22:41:18 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"server", "commit"=>"Отправить"}
+Completed 500 Internal Server Error in 10237ms
+
+
+  
+OpenURI::HTTPError (500 Internal Server Error):
+  
+app/controllers/proxy_controller.rb:14:in `output'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 22:41:55 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"client", "commit"=>"Отправить"}
+Completed 500 Internal Server Error in 8239ms
+
+
+  
+OpenURI::HTTPError (500 Internal Server Error):
+  
+app/controllers/proxy_controller.rb:14:in `output'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 22:43:02 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"client", "commit"=>"Отправить"}
+Completed 500 Internal Server Error in 8416ms
+
+
+  
+OpenURI::HTTPError (500 Internal Server Error):
+  
+app/controllers/proxy_controller.rb:14:in `output'
+Started GET "/proxy/output" for 127.0.0.1 at 2017-12-11 22:48:58 +0300
+Processing by ProxyController#output as HTML
+Completed 500 Internal Server Error in 8732ms
+
+
+  
+OpenURI::HTTPError (500 Internal Server Error):
+  
+app/controllers/proxy_controller.rb:14:in `output'
+Started GET "/proxy/output" for 127.0.0.1 at 2017-12-11 22:49:49 +0300
+Processing by ProxyController#output as HTML
+Completed 500 Internal Server Error in 8240ms
+
+
+  
+OpenURI::HTTPError (500 Internal Server Error):
+  
+app/controllers/proxy_controller.rb:14:in `output'
+Started GET "/proxy/output" for 127.0.0.1 at 2017-12-11 22:50:46 +0300
+Processing by ProxyController#output as HTML
+Started GET "/proxy/output" for 127.0.0.1 at 2017-12-11 22:50:51 +0300
+Processing by ProxyController#output as HTML
+Started GET "/" for 127.0.0.1 at 2017-12-11 22:50:54 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 249ms (Views: 137.6ms)
+
+
+Completed 500 Internal Server Error in 8737ms
+
+
+  
+OpenURI::HTTPError (500 Internal Server Error):
+  
+app/controllers/proxy_controller.rb:14:in `output'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=client-with-xslt&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 22:51:02 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"client-with-xslt", "commit"=>"Отправить"}
+Completed 500 Internal Server Error in 11811ms
+
+
+  
+OpenURI::HTTPError (500 Internal Server Error):
+  
+app/controllers/proxy_controller.rb:14:in `output'
+Completed 500 Internal Server Error in 8894ms
+
+
+  
+OpenURI::HTTPError (500 Internal Server Error):
+  
+app/controllers/proxy_controller.rb:14:in `output'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=5&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 22:51:30 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"5", "side"=>"client", "commit"=>"Отправить"}
+Completed 500 Internal Server Error in 8307ms
+
+
+  
+OpenURI::HTTPError (500 Internal Server Error):
+  
+app/controllers/proxy_controller.rb:14:in `output'
+Started GET "/" for 127.0.0.1 at 2017-12-11 22:53:51 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 108ms (Views: 81.3ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 22:53:54 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"", "side"=>"client", "commit"=>"Отправить"}
+Completed 500 Internal Server Error in 7870ms
+
+
+  
+OpenURI::HTTPError (500 Internal Server Error):
+  
+app/controllers/proxy_controller.rb:14:in `output'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 22:54:14 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"client", "commit"=>"Отправить"}
+Completed 500 Internal Server Error in 7256ms
+
+
+  
+OpenURI::HTTPError (500 Internal Server Error):
+  
+app/controllers/proxy_controller.rb:14:in `output'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 22:54:53 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"client", "commit"=>"Отправить"}
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 22:54:53 +0300
+Completed 500 Internal Server Error in 120005ms
+
+
+  
+Net::ReadTimeout (Net::ReadTimeout):
+  
+app/controllers/proxy_controller.rb:14:in `output'
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 22:57:00 +0300
+Processing by ProxyController#input as XML
+Processing by ProxyController#input as XML
+  Parameters: {"n"=>"3"}
+  Parameters: {"n"=>"3"}
+Completed 406 Not Acceptable in 1578ms
+
+
+  
+ActionController::UnknownFormat (ProxyController#input is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+Completed 406 Not Acceptable in 838ms
+
+
+  
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+ActionController::UnknownFormat (ProxyController#input is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:19:28 +0300
+Processing by ProxyController#input as XML
+  Parameters: {"n"=>"3"}
+Completed 406 Not Acceptable in 836ms
+
+
+  
+ActionController::UnknownFormat (ProxyController#input is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-11 23:48:14 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (92.2ms)
+Completed 200 OK in 342ms (Views: 221.2ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=server&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 23:48:19 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"server", "commit"=>"Отправить"}
+Completed 500 Internal Server Error in 791ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - C:/Ruby/RubyProjects/xslt-proxy/public/server_transform.xslt):
+  
+app/controllers/proxy_controller.rb:45:in `read'
+app/controllers/proxy_controller.rb:45:in `xslt_transform'
+app/controllers/proxy_controller.rb:18:in `output'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=client-with-xslt&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 23:48:38 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"client-with-xslt", "commit"=>"Отправить"}
+Completed 200 OK in 724ms (Views: 15.2ms)
+
+
+Started GET "/browser_transform.xslt" for 127.0.0.1 at 2017-12-11 23:48:39 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/browser_transform.xslt"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 23:49:02 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"client", "commit"=>"Отправить"}
+Completed 200 OK in 65ms (Views: 0.1ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=server&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 23:49:26 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"server", "commit"=>"Отправить"}
+Completed 500 Internal Server Error in 197ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - C:/Ruby/RubyProjects/xslt-proxy/public/server_transform.xslt):
+  
+app/controllers/proxy_controller.rb:45:in `read'
+app/controllers/proxy_controller.rb:45:in `xslt_transform'
+app/controllers/proxy_controller.rb:18:in `output'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=server&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 23:52:57 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"server", "commit"=>"Отправить"}
+Completed 500 Internal Server Error in 1153ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - C:/Ruby/RubyProjects/xslt-proxy/public/server_transform.xslt):
+  
+app/controllers/proxy_controller.rb:35:in `read'
+app/controllers/proxy_controller.rb:35:in `xslt_transform'
+app/controllers/proxy_controller.rb:14:in `output'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=server&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 23:55:05 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"server", "commit"=>"Отправить"}
+Completed 500 Internal Server Error in 1080ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - C:/Ruby/RubyProjects/xslt-proxy/public/server_transform.xslt):
+  
+app/controllers/proxy_controller.rb:35:in `read'
+app/controllers/proxy_controller.rb:35:in `xslt_transform'
+app/controllers/proxy_controller.rb:14:in `output'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=server&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 23:57:45 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"server", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.0ms)
+  Rendered proxy/output.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1335ms (Views: 134.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=client-with-xslt&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 23:57:52 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"client-with-xslt", "commit"=>"Отправить"}
+Completed 200 OK in 1136ms (Views: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-11 23:58:47 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (61.9ms)
+Completed 200 OK in 241ms (Views: 140.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=server&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 23:58:49 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"server", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.0ms)
+  Rendered proxy/output.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 1475ms (Views: 110.5ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=client-with-xslt&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-11 23:58:56 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"client-with-xslt", "commit"=>"Отправить"}
+Completed 200 OK in 1055ms (Views: 0.2ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=server&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:00:49 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"server", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.5ms)
+  Rendered proxy/output.html.erb within layouts/application (62.2ms)
+Completed 200 OK in 1268ms (Views: 150.7ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=client-with-xslt&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:00:55 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"client-with-xslt", "commit"=>"Отправить"}
+Completed 200 OK in 1110ms (Views: 0.2ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=server&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:01:44 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"server", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (20.9ms)
+  Rendered proxy/output.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 1199ms (Views: 97.3ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=server&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:02:21 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"server", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.0ms)
+  Rendered proxy/output.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1303ms (Views: 116.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=client-with-xslt&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:02:26 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"client-with-xslt", "commit"=>"Отправить"}
+Completed 200 OK in 1057ms (Views: 0.2ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=server&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:03:38 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"server", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.0ms)
+  Rendered proxy/output.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1195ms (Views: 75.7ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=server&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:04:21 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"server", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.5ms)
+  Rendered proxy/output.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1221ms (Views: 112.9ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=server&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:04:31 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"server", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.0ms)
+  Rendered proxy/output.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1233ms (Views: 76.2ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=client-with-xslt&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:04:40 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"client-with-xslt", "commit"=>"Отправить"}
+Completed 200 OK in 1055ms (Views: 0.2ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:04:44 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"client", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (51.7ms)
+  Rendered proxy/output.html.erb within layouts/application (79.5ms)
+Completed 500 Internal Server Error in 1386ms
+
+
+  
+ActionView::Template::Error (A template needs to have a virtual path in order to be refreshed):
+    3: <br><br>
+    4: 
+    5: <!--Это значит, что текст из переменной result будет отображен как HTML-разметка-->
+    6: <%= render inline: @result %>
+  
+app/views/proxy/output.html.erb:6:in `_app_views_proxy_output_html_erb___2011015236_97429540'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:06:04 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"client", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (157.4ms)
+  Rendered proxy/output.html.erb within layouts/application (183.4ms)
+Completed 500 Internal Server Error in 1328ms
+
+
+  
+ActionView::Template::Error (A template needs to have a virtual path in order to be refreshed):
+    3: <br><br>
+    4: 
+    5: <!--Это значит, что текст из переменной result будет отображен как HTML-разметка-->
+    6: <%= render inline: @result %>
+  
+app/views/proxy/output.html.erb:6:in `_app_views_proxy_output_html_erb___2011015236_98042360'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:07:10 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"client", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.5ms)
+  Rendered proxy/output.html.erb within layouts/application (26.5ms)
+Completed 500 Internal Server Error in 1173ms
+
+
+  
+ActionView::Template::Error (A template needs to have a virtual path in order to be refreshed):
+    1: <%= render inline: @result %>
+  
+app/views/proxy/output.html.erb:1:in `_app_views_proxy_output_html_erb___2011015236_89116060'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:17:02 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"client", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.5ms)
+  Rendered proxy/output.html.erb within layouts/application (20.0ms)
+Completed 500 Internal Server Error in 1398ms
+
+
+  
+ActionView::Template::Error (A template needs to have a virtual path in order to be refreshed):
+    1: <%= render inline: @result %>
+  
+app/views/proxy/output.html.erb:1:in `_app_views_proxy_output_html_erb___2011015236_108717300'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:17:16 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"client", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.5ms)
+  Rendered proxy/output.html.erb within layouts/application (19.0ms)
+Completed 500 Internal Server Error in 1127ms
+
+
+  
+ActionView::Template::Error (A template needs to have a virtual path in order to be refreshed):
+    1: <%= render inline: @result %>
+  
+app/views/proxy/output.html.erb:1:in `_app_views_proxy_output_html_erb___2011015236_89629520'
+Started GET "/" for 127.0.0.1 at 2017-12-12 00:19:10 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 626ms (Views: 56.5ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:19:14 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"client", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (1.0ms)
+  Rendered proxy/output.html.erb within layouts/application (27.0ms)
+Completed 500 Internal Server Error in 1173ms
+
+
+  
+ActionView::Template::Error (A template needs to have a virtual path in order to be refreshed):
+    1: <%= render inline: @result %>
+  
+app/views/proxy/output.html.erb:1:in `_app_views_proxy_output_html_erb___2011015236_107315060'
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:21:24 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"client", "commit"=>"Отправить"}
+Completed 200 OK in 1047ms (Views: 0.2ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=server&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:21:29 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"server", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (62.5ms)
+  Rendered proxy/output.html.erb within layouts/application (64.5ms)
+Completed 200 OK in 1235ms (Views: 122.5ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=client-with-xslt&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:21:33 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"client-with-xslt", "commit"=>"Отправить"}
+Completed 200 OK in 2742ms (Views: 0.1ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=4&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:21:38 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"4", "side"=>"client", "commit"=>"Отправить"}
+Completed 200 OK in 1686ms (Views: 0.1ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for 127.0.0.1 at 2017-12-12 00:21:43 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"client", "commit"=>"Отправить"}
+Completed 200 OK in 1314ms (Views: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-12-14 18:26:02 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 510ms (Views: 123.8ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=server&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for ::1 at 2017-12-14 18:26:16 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"server", "commit"=>"Отправить"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.0ms)
+  Rendered proxy/output.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1943ms (Views: 50.3ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=&side=client&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for ::1 at 2017-12-14 18:26:24 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"", "side"=>"client", "commit"=>"Отправить"}
+Completed 200 OK in 1036ms (Views: 0.1ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=&side=client-with-xslt&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for ::1 at 2017-12-14 18:26:31 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"", "side"=>"client-with-xslt", "commit"=>"Отправить"}
+Completed 200 OK in 1037ms (Views: 0.1ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=&side=client-with-xslt&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for ::1 at 2017-12-14 18:26:37 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"", "side"=>"client-with-xslt", "commit"=>"Отправить"}
+Completed 200 OK in 1037ms (Views: 0.1ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&n=3&side=client-with-xslt&commit=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C" for ::1 at 2017-12-14 18:26:49 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "n"=>"3", "side"=>"client-with-xslt", "commit"=>"Отправить"}
+Completed 200 OK in 1037ms (Views: 0.1ms)
+
+

@@ -1,0 +1,928 @@
+Started GET "/?n=3" for 127.0.0.1 at 2017-12-06 02:07:24 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"n"=>"3"}
+  Rendering C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (21.4ms)
+Completed 200 OK in 1890ms (Views: 134.7ms)
+
+
+Started GET "/?n=3" for 127.0.0.1 at 2017-12-06 02:07:32 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"n"=>"3"}
+  Rendering C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 69ms (Views: 36.0ms)
+
+
+Started GET "/xml/index" for 127.0.0.1 at 2017-12-06 02:35:33 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/xml/index"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?n=3" for 127.0.0.1 at 2017-12-06 02:35:59 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"n"=>"3"}
+  Rendering C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 104ms (Views: 36.2ms)
+
+
+Started GET "/proxy/output" for 127.0.0.1 at 2017-12-11 21:05:33 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/proxy/output"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/taksk/answer" for 127.0.0.1 at 2017-12-11 21:05:58 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/taksk/answer"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?n=3" for 127.0.0.1 at 2017-12-11 21:08:31 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"n"=>"3"}
+  Rendering C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 7136ms (Views: 115.9ms)
+
+
+Started GET "/lab10/?n=3" for 127.0.0.1 at 2017-12-11 21:08:59 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/lab10"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?=3&format=xml" for 127.0.0.1 at 2017-12-11 21:37:38 +0300
+Processing by Rails::WelcomeController#index as XML
+Completed 406 Not Acceptable in 1097ms
+
+
+  
+ActionController::UnknownFormat (Rails::WelcomeController#index is missing a template for this request format and variant.
+
+request.formats: ["application/xml"]
+request.variant: []):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:40:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/proxy/input" for 127.0.0.1 at 2017-12-11 22:14:04 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/proxy/input"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/proxy/input" for 127.0.0.1 at 2017-12-11 22:17:45 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/proxy/input"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/proxy/input" for 127.0.0.1 at 2017-12-11 22:19:00 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/proxy/input"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/proxy/input" for 127.0.0.1 at 2017-12-11 22:20:16 +0300
+  
+NoMethodError (undefined method `root_path' for #<ActionDispatch::Routing::Mapper:0x000000000801a588>):
+  
+config/routes.rb:5:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/proxy/input" for 127.0.0.1 at 2017-12-11 22:23:56 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/proxy/input"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/proxy/input" for 127.0.0.1 at 2017-12-11 22:29:02 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/proxy/input"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/proxy/input" for 127.0.0.1 at 2017-12-11 22:39:20 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/proxy/input"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?format=xml&lower=&upper=" for 127.0.0.1 at 2017-12-11 22:41:19 +0300
+Processing by XmlController#index as XML
+  Parameters: {"lower"=>"", "upper"=>""}
+Completed 500 Internal Server Error in 79ms
+
+
+  
+NoMethodError (undefined method `map' for "Invalid n!":String
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&lower=&upper=" for 127.0.0.1 at 2017-12-11 22:41:56 +0300
+Processing by XmlController#index as XML
+  Parameters: {"lower"=>"", "upper"=>""}
+Completed 500 Internal Server Error in 12ms
+
+
+  
+NoMethodError (undefined method `map' for "Invalid n!":String
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 22:43:03 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 500 Internal Server Error in 53ms
+
+
+  
+NoMethodError (undefined method `map' for 4:Integer
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/proxy/output" for 127.0.0.1 at 2017-12-11 22:48:49 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/proxy/output"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?format=xml&n=" for 127.0.0.1 at 2017-12-11 22:48:59 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 109ms
+
+
+  
+NoMethodError (undefined method `map' for "Invalid n!":String
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&n=" for 127.0.0.1 at 2017-12-11 22:49:50 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `map' for "Invalid n!":String
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&n=" for 127.0.0.1 at 2017-12-11 22:50:48 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 3ms
+
+
+  
+NoMethodError (undefined method `map' for "Invalid n!":String
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&n=" for 127.0.0.1 at 2017-12-11 22:50:53 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `map' for "Invalid n!":String
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 22:51:04 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 500 Internal Server Error in 42ms
+
+
+  
+NoMethodError (undefined method `map' for 4:Integer
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&n=5" for 127.0.0.1 at 2017-12-11 22:51:31 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"5"}
+Completed 500 Internal Server Error in 207ms
+
+
+  
+NoMethodError (undefined method `map' for 3:Integer
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/proxy/output" for 127.0.0.1 at 2017-12-11 22:53:46 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/proxy/output"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?format=xml&n=" for 127.0.0.1 at 2017-12-11 22:53:54 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `map' for "Invalid n!":String
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 22:54:14 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 500 Internal Server Error in 3ms
+
+
+  
+NoMethodError (undefined method `map' for 4:Integer
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:20:17 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 500 Internal Server Error in 3ms
+
+
+  
+NoMethodError (undefined method `map' for 4:Integer
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:21:25 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 500 Internal Server Error in 198ms
+
+
+  
+NoMethodError (undefined method `to_xml' for 4:Integer
+Did you mean?  to_yaml):
+  
+app/controllers/xml_controller.rb:14:in `block (2 levels) in index'
+app/controllers/xml_controller.rb:13:in `index'
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:23:11 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 500 Internal Server Error in 7ms
+
+
+  
+NoMethodError (undefined method `map' for 4:Integer
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:27:46 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 500 Internal Server Error in 37ms
+
+
+  
+NoMethodError (undefined method `is_s?' for 4:Integer
+Did you mean?  is_a?):
+  
+app/controllers/xml_controller.rb:7:in `index'
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:30:28 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 500 Internal Server Error in 5ms
+
+
+  
+NoMethodError (undefined method `map' for 4:Integer
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:35:51 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 500 Internal Server Error in 23ms
+
+
+  
+NoMethodError (undefined method `map' for 4:Integer
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:45:30 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 500 Internal Server Error in 4ms
+
+
+  
+NoMethodError (undefined method `map' for 4:Integer
+Did you mean?  tap):
+  
+app/controllers/xml_controller.rb:10:in `index'
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:47:42 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 2064ms (Views: 67.8ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:48:20 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 3ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:48:38 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 418ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:49:02 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 3ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:49:26 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 3ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:52:58 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 3ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:55:06 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 3ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:57:46 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 3ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-11 23:57:54 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 3ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-11 23:58:50 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 41ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-11 23:58:57 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 19ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:00:50 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 15ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:00:56 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 18ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:01:45 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 15ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:02:22 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 17ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:02:27 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 15ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:03:39 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 17ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:04:23 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 15ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:04:32 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 17ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:04:41 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 15ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:04:45 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 17ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-12 00:06:05 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 3ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-12 00:07:11 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 3ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-12 00:17:03 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-12 00:17:17 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 3ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-12 00:18:49 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 3ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:18:54 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 19ms (Views: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-12 00:19:06 +0300
+Processing by XmlController#index as HTML
+Completed 406 Not Acceptable in 38ms
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:14:in `index'
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:19:15 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 17ms (Views: 0.2ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:21:25 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 18ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:21:30 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 19ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:21:34 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 1700ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=4" for 127.0.0.1 at 2017-12-12 00:21:40 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 581ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-12 00:21:44 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 277ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=" for 127.0.0.1 at 2017-12-14 00:43:51 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>""}
+Completed 200 OK in 516ms (Views: 0.2ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-14 18:26:17 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 498ms (Views: 0.2ms)
+
+
+Started GET "/?format=xml&n=" for 127.0.0.1 at 2017-12-14 18:26:25 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>""}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=" for 127.0.0.1 at 2017-12-14 18:26:32 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>""}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=" for 127.0.0.1 at 2017-12-14 18:26:38 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>""}
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/?format=xml&n=3" for 127.0.0.1 at 2017-12-14 18:26:50 +0300
+Processing by XmlController#index as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 2ms (Views: 0.1ms)
+
+

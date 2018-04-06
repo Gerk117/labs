@@ -1,0 +1,13 @@
+<% if @result.is_a? String || @result.nil? || @result.size == 0%>
+    <p><%= @result %></p>
+<% else %>
+    <table border="1" cellpadding="5" cellspacing="0">
+      <tr>
+        <td>The number of Armstong: <%=@numbers %></td>
+      </tr>
+      <tr>
+        <td>Quantity: <%= @quantity %></td>
+      </tr>
+    </table><br/>
+<% end %>
+<%= link_to 'repeat read', root_path %>
